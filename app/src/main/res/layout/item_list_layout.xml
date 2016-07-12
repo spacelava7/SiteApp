@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@color/colorImageListBackground"
+    android:minHeight="88dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_centerVertical="true"
+        android:padding="4dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_local_cafe_white_24dp" />
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:background="@color/color_"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/image"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/itemList_txt1"
+            style="@style/itemListStyle"
+            tools:text="name"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/itemList_txt2"
+            style="@style/itemListStyle"
+            tools:text="address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
