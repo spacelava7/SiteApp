@@ -72,7 +72,7 @@ public class TourAdapter extends ArrayAdapter<TourSite> {
             imageView.setVisibility(View.GONE);
         }
 
-        View textContainer = listItemView.findViewById(R.id.textContainer);
+        View textContainer = listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         textContainer.setBackgroundColor(color);
 

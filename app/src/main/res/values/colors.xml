@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#36469B</color>
-    <color name="colorPrimaryDark">#242F68</color>
+    <color name="colorPrimary">#0f1a28</color>
+    <color name="colorPrimaryDark">#060812</color>
     <color name="colorAccent">#FF5252</color>
     <color name="colorImageListBackground">#2b2b2b</color>
     <color name="color_Text">#727272</color>
@@ -9,10 +9,10 @@
 
     <!-- Categories -->
 
-    <color name="color_nightLife">#9C27B0</color>
-    <color name="color_restaurants">#FF1744</color>
-    <color name="color_market">#303F9F</color>
+    <color name="color_nightLife">#37474F</color>
+    <color name="color_restaurants">#ff1744</color>
+    <color name="color_brunch">#303F9F</color>
     <color name="color_viewstop">#009688</color>
-    <color name="color_phrases">#039327</color>
+    <color name="color_phrases">#42A5F5</color>
 
 </resources>
