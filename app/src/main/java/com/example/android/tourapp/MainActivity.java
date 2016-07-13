@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
-        //setSupportActionBar(myToolbar);
 
         final FrameLayout viewSite = (FrameLayout) findViewById(R.id.frame_viewSites);
 
@@ -34,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent viewSiteIntent = new Intent(MainActivity.this, ViewSitesActivity.class);
                 startActivity(viewSiteIntent);
-               // Toast.makeText(MainActivity.this, "Frame Clicked", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -77,15 +74,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
 
         MenuItem settingMenu = menu.findItem(R.id.settingMenu);
 
-
         // Configure the search info and add any event listeners...
-
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -105,4 +101,5 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+    */
 }

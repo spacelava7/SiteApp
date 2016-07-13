@@ -20,13 +20,11 @@ public class NightLifeActivity extends AppCompatActivity {
 
         final ArrayList<TourSite > words = new ArrayList<TourSite>();
         words.add(new TourSite("Search Night Club ","No. 182, Xinsheng Rd, Zhongli District, Taoyuan City, 320",R.drawable.ic_bar));
-        words.add(new TourSite("shrimping", "Thank you", R.drawable.ic_shrimp));
-        words.add(new TourSite("ChungYuan Night Market", "Goodbye"));
-        words.add(new TourSite("Song KTV", "I want one beer"));
-        words.add(new TourSite("Startup Bar", "I am sorry"));
-        words.add(new TourSite("ZhongLi Night Market", "This one", R.drawable.ic_restaurant_white_24dp));
-        words.add(new TourSite("Taoyuan Night Market", "That one"));
-        words.add(new TourSite("River", "I want one", R.drawable.ic_bar));
+        words.add(new TourSite("Shrimping", "320, Yongfu Road, Chungli City, Taoyuan County 789", R.drawable.ic_shrimp));
+        words.add(new TourSite("ChungYuan Night Market","Daren 5th St, Zhongli District,Taoyuan City, 320",R.drawable.ic_local_play));
+        words.add(new TourSite("ZhongLi Night Market", "Xinming Rd, Zhongli District, Taoyuan City, 320", R.drawable.ic_restaurant_white_24dp));
+        words.add(new TourSite("Taoyuan Tourist Night Market", "Zhongzheng Rd, Taoyuan District, Taoyuan City, 330",R.drawable.ic_local_play));
+
 
         LinearLayout viewSiteView = (LinearLayout) findViewById(R.id.categoryView);
 
